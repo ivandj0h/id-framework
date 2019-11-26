@@ -1,0 +1,23 @@
+{
+    "name": "ivandjoh/flip",
+    "description": "This is a  Service  that can be use to disburse the data from the external Flip sanbox API",
+    "authors": [
+        {
+            "name": "ivandi Djoh Gah",
+            "email": "ivandi.gah@gmail.com"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^6.0",
+        "relay/relay": "^2.0",
+        "zendframework/zend-diactoros": "^2.2",
+        "middlewares/fast-route": "^1.2",
+        "middlewares/request-handler": "^1.4",
+        "narrowspark/http-emitter": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExampleApp\\": "src/"
+        }
+    }
+}
